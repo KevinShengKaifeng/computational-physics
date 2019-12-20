@@ -1,0 +1,92 @@
+%% AMS-LaTeX Created with the Wolfram Language : www.wolfram.com
+
+\documentclass{article}
+\usepackage{amsmath, amssymb, graphics, setspace}
+
+\newcommand{\mathsym}[1]{{}}
+\newcommand{\unicode}[1]{{}}
+
+\newcounter{mathematicapage}
+\begin{document}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{data30}=\text{Import}[\text{{``}F:$\backslash \backslash $SKF$\backslash \backslash $pku$\backslash \backslash \unicode{5927}\unicode{4e09}\unicode{4e0a}\backslash
+\backslash \unicode{8ba1}\unicode{7b97}\unicode{7269}\unicode{7406}\unicode{5b66}\unicode{ff08}$B$\unicode{ff09}\backslash \backslash \unicode{4f5c}\unicode{4e1a}\backslash
+\backslash $1.5$\backslash \backslash $python$\backslash \backslash $output30.txt{''}},\text{{``}list{''}}];}\\
+\pmb{\text{data30nr}=\text{Import}[\text{{``}F:$\backslash \backslash $SKF$\backslash \backslash $pku$\backslash \backslash \unicode{5927}\unicode{4e09}\unicode{4e0a}\backslash
+\backslash \unicode{8ba1}\unicode{7b97}\unicode{7269}\unicode{7406}\unicode{5b66}\unicode{ff08}$B$\unicode{ff09}\backslash \backslash \unicode{4f5c}\unicode{4e1a}\backslash
+\backslash $1.5$\backslash \backslash $python$\backslash \backslash $output30$\_$no$\_$resistance.txt{''}},\text{{``}list{''}}];}\\
+\pmb{\text{data40}=\text{Import}[\text{{``}F:$\backslash \backslash $SKF$\backslash \backslash $pku$\backslash \backslash \unicode{5927}\unicode{4e09}\unicode{4e0a}\backslash
+\backslash \unicode{8ba1}\unicode{7b97}\unicode{7269}\unicode{7406}\unicode{5b66}\unicode{ff08}$B$\unicode{ff09}\backslash \backslash \unicode{4f5c}\unicode{4e1a}\backslash
+\backslash $1.5$\backslash \backslash $python$\backslash \backslash $output40.txt{''}},\text{{``}list{''}}];}\\
+\pmb{\text{data40nr}=\text{Import}[\text{{``}F:$\backslash \backslash $SKF$\backslash \backslash $pku$\backslash \backslash \unicode{5927}\unicode{4e09}\unicode{4e0a}\backslash
+\backslash \unicode{8ba1}\unicode{7b97}\unicode{7269}\unicode{7406}\unicode{5b66}\unicode{ff08}$B$\unicode{ff09}\backslash \backslash \unicode{4f5c}\unicode{4e1a}\backslash
+\backslash $1.5$\backslash \backslash $python$\backslash \backslash $output40$\_$no$\_$resistance.txt{''}},\text{{``}list{''}}];}\\
+\pmb{\text{data50}=\text{Import}[\text{{``}F:$\backslash \backslash $SKF$\backslash \backslash $pku$\backslash \backslash \unicode{5927}\unicode{4e09}\unicode{4e0a}\backslash
+\backslash \unicode{8ba1}\unicode{7b97}\unicode{7269}\unicode{7406}\unicode{5b66}\unicode{ff08}$B$\unicode{ff09}\backslash \backslash \unicode{4f5c}\unicode{4e1a}\backslash
+\backslash $1.5$\backslash \backslash $python$\backslash \backslash $output50.txt{''}},\text{{``}list{''}}];}\\
+\pmb{\text{data50nr}=\text{Import}[\text{{``}F:$\backslash \backslash $SKF$\backslash \backslash $pku$\backslash \backslash \unicode{5927}\unicode{4e09}\unicode{4e0a}\backslash
+\backslash \unicode{8ba1}\unicode{7b97}\unicode{7269}\unicode{7406}\unicode{5b66}\unicode{ff08}$B$\unicode{ff09}\backslash \backslash \unicode{4f5c}\unicode{4e1a}\backslash
+\backslash $1.5$\backslash \backslash $python$\backslash \backslash $output50$\_$no$\_$resistance.txt{''}},\text{{``}list{''}}];}\\
+\pmb{\text{data}=\{\text{data30},\text{data30nr},\text{data40},\text{data40nr},\text{data50},\text{data50nr}\};}\\
+\pmb{\text{points}=\text{Table}[\text{Table}[\{\text{data}[[j,i]],\text{data}[[j,i+1]]\},\{i,1,\text{Length}[\text{data}[[j]]],7\}],\{j,1,6,2\}];}\\
+\pmb{\text{pointsnr}=\text{Table}[\text{Table}[\{\text{data}[[j,i]],\text{data}[[j,i+1]]\},\{i,1,\text{Length}[\text{data}[[j]]],7\}],\{j,2,6,2\}];}\\
+\pmb{\text{ListLinePlot}[\text{Join}[\text{points},\text{pointsnr}],\text{Frame}\to \text{True},\text{Mesh}\to \{\{\},\{0\}\},}\\
+\pmb{\text{PlotLegends}\to \text{Placed}\left[\text{LineLegend}\left[\left\{\text{{``}$\theta $=30${}^{\circ}${''}},\text{{``}$\theta $=40${}^{\circ}${''}},\text{{``}$\theta
+$=50${}^{\circ}${''}},\text{$\texttt{"}\theta $=30${}^{\circ}$,}B_2\text{=0$\texttt{"}$},\text{$\texttt{"}\theta $=40${}^{\circ}$,}B_2\text{=0$\texttt{"}$},\text{$\texttt{"}\theta
+$=50${}^{\circ}$,}B_2\text{=0$\texttt{"}$}\right\},\text{LegendLabel}\to \text{{``}Label{''}},\right.\right.}\\
+\pmb{\text{LegendFunction}\to (\text{Framed}[\#,\text{Background}\to \text{LightBlue}]\&)],\{0.9,0.8\}],\text{FrameLabel}\to \{\text{{``}x/m{''}},\text{{``}y/m{''}}\},\text{LabelStyle}\to
+\{\text{Bold}, \text{Medium}\}]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{ans30}=\{\text{data30}[[-1]]+\text{data30}[[-6]]/\text{Abs}[\text{data30}[[-4]]],\text{data30}[[-5]]+\text{data30}[[-3]]*\text{data30}[[-6]]/\text{Abs}[\text{data30}[[-4]]],}\\
+\pmb{\text{data30}[[-4]]+\text{data30}[[-2]]*\text{data30}[[-6]]/\text{Abs}[\text{data30}[[-4]]],\text{data30}[[-7]]+\text{data30}[[-5]]*\text{data30}[[-6]]/\text{Abs}[\text{data30}[[-4]]]\};}\\
+\pmb{\text{ans40}=\{\text{data40}[[-1]]+\text{data40}[[-6]]/\text{Abs}[\text{data40}[[-4]]],\text{data40}[[-5]]+\text{data40}[[-3]]*\text{data40}[[-6]]/\text{Abs}[\text{data40}[[-4]]],}\\
+\pmb{\text{data40}[[-4]]+\text{data40}[[-2]]*\text{data40}[[-6]]/\text{Abs}[\text{data40}[[-4]]],\text{data40}[[-7]]+\text{data40}[[-5]]*\text{data40}[[-6]]/\text{Abs}[\text{data40}[[-4]]]\};}\\
+\pmb{\text{ans50}=\{\text{data50}[[-1]]+\text{data50}[[-6]]/\text{Abs}[\text{data50}[[-4]]],\text{data50}[[-5]]+\text{data50}[[-3]]*\text{data50}[[-6]]/\text{Abs}[\text{data50}[[-4]]],}\\
+\pmb{\text{data50}[[-4]]+\text{data50}[[-2]]*\text{data50}[[-6]]/\text{Abs}[\text{data50}[[-4]]],\text{data50}[[-7]]+\text{data50}[[-5]]*\text{data50}[[-6]]/\text{Abs}[\text{data50}[[-4]]]\};}\\
+\pmb{\text{ans}=\{\text{ans30},\text{ans40},\text{ans50}\}}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\{\{57.3821,238.907,-248.45,21286.6\},\{71.2617,187.393,-299.753,22056.6\},\{83.0591,145.616,-338.98,20886.7\}\}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{Grid}\left[\text{ans}\text{//}\text{Prepend}\left[\left\{\text{{``}t/s{''}},\texttt{"}v_x\text{/m/s$\texttt{"}$},\texttt{"}v_y\text{/m/s$\texttt{"}$},\texttt{"}x_f\text{/m$\texttt{"}$}\right\}\right]\text{//}\text{Transpose}\text{//}\text{Prepend}[\{\text{{``}$\theta
+${''}},\text{{``}30${}^{\circ}${''}},\text{{``}40${}^{\circ}${''}},\text{{``}50${}^{\circ}${''}}\}]\text{//}\text{Transpose}\right]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\begin{array}{ccccc}
+ \theta  & \text{t/s} & v_x\text{/m/s} & v_y\text{/m/s} & x_f\text{/m} \\
+ \text{30${}^{\circ}$} & 57.3821 & 238.907 & -248.45 & 21286.6 \\
+ \text{40${}^{\circ}$} & 71.2617 & 187.393 & -299.753 & 22056.6 \\
+ \text{50${}^{\circ}$} & 83.0591 & 145.616 & -338.98 & 20886.7 \\
+\end{array}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{tlist}=\{\{\text{{``}58.0836{''}},\text{{``}57.7265{''}},\text{{``}57.5138{''}},\text{{``}57.443{''}},\text{{``}57.4076{''}}\},}\\
+\pmb{\{\text{{``}57.5639{''}},\text{{``}57.4721{''}},\text{{``}57.4117{''}},\text{{``}57.3922{''}},\text{{``}57.3821{''}}\},\{1,0.5,0.2,0.1,0.05\}\};}\\
+\pmb{\text{ListPlot}[\{\{\text{tlist}[[3]],\text{tlist}[[1]]\}\text{//}\text{Transpose},\{\text{tlist}[[3]],\text{tlist}[[2]]\}\text{//}\text{Transpose}\},\text{Joined}\to
+\text{True},\text{Frame}\to \text{True},\text{Mesh}\to \text{Full},}\\
+\pmb{\text{PlotLegends}\to \text{Placed}[\text{LineLegend}[\{\text{{``}shoot1{''}},\text{{``}shoot2{''}}\},\text{LegendLabel}\to \text{{``}Label{''}},\text{LegendFunction}\to
+(\text{Framed}[\#,\text{Background}\to \text{LightBlue}]\&)],\{0.2,0.8\}],}\\
+\pmb{\text{FrameLabel}\to \{\text{{``}$\Delta $t/s{''}},\text{{``}t/s{''}}\},\text{LabelStyle}\to \{\text{Bold}, \text{Medium}\}]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{}}\)
+\end{doublespace}
+
+\end{document}
